@@ -24,9 +24,11 @@ Displays all data streams within a file.
 - the file path to a file
 
 **Example 1**
+
 `py get-streams.py --file my_secret.txt`
  - returns all data stream names
  
  **Example 2**
+ 
  `py get-streams.py -f C:\data\ADS\my_secret.txt`
  - uses the alias of parameter `--file` to specify the file path
