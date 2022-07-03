@@ -20,6 +20,7 @@ Displays all data streams within a file.
 ### Usage
 
 **Parameter -f, --file**
+- required
 - type : str
 - the file path to a file
 
