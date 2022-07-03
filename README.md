@@ -40,10 +40,12 @@ Displays the content of a data stream.
 ### Usage
 
 **Parameter -f, --file**
+- required
 - type : str
 - the file path to a file
 
 **Parameter -n, --name**
+- required
 - type : str
 - data stream name
 
@@ -65,14 +67,17 @@ Writes data to a file stream.
 ### Usage
 
 **Parameter -f, --file**
+- required
 - type : str
 - the file path to a file
 
 **Parameter -n, --name**
+- required
 - type : str
 - data stream name
 
 **Parameter -d, --data**
+- required
 - type : str
 - data to write
 - you can supply a file path to write a file's contents
@@ -100,10 +105,12 @@ Removes a data stream from a file.
 ### Usage
 
 **Parameter -f, --file**
+- required
 - type : str
 - the file path to a file
 
 **Parameter -n, --name**
+- required
 - type : str
 - data stream name
 
@@ -150,10 +157,10 @@ All reports are saved in the current working directory.
 - type : str
 - file report options
 - allowed values:
-    - a : run all reports
-    - f : run file report
-    - e : run run extension report
-    - z : run zone.identifer report
+    - `a` : run all reports
+    - `f` : run file report
+    - `e` : run run extension report
+    - `z` : run zone.identifer report
 - default : a
 
 **Example 1**
