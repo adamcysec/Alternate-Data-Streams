@@ -16,7 +16,7 @@ def get_args():
     parser.add_argument("-f", "--file", dest="filename", required=True,
                     help="input file path", metavar="FILE",
                     type=lambda x: is_valid_file(parser, x))
-    parser.add_argument('-n','--name', action='store', type=str, required=False, help="data stream name to read")
+    parser.add_argument('-n','--name', action='store', type=str, required=True, help="data stream name to read")
 
     args = parser.parse_args()
 
