@@ -123,14 +123,13 @@ Outputs 3 different CSV reports for analyzing alternate data streams from a host
 
 ### Report Types
 **(f) file report**
-
-This report is used to identify all files with ADS.
+- This report is used to identify all files with ADS.
 
 **(e) extension report**
-This report is used to idenitfy the top file extension with ADS.
+- This report is used to idenitfy the top file extension with ADS.
 
 **(z) zone.identifer report**
-This report is used to identify the content of the Zone.Identifer ADS
+- This report is used to identify the content of the Zone.Identifer ADS
 
 All reports are saved in the current working directory. 
 
