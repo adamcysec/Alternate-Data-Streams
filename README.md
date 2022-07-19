@@ -160,7 +160,8 @@ All reports are saved in the current working directory.
 - allowed values:
     - `a` : run all reports
     - `f` : run file report
-    - `e` : run run extension report
+    - `e` : run
+    extension report
     - `z` : run zone.identifer report
 - default : a
 
